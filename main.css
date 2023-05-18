@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@300;600&display=swap");
+/* font-family: 'Lobster', cursive;*/
+
+/* font-family: 'Roboto Slab', serif;*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/firstbackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.logo {
+  font-family: "Lobster", cursive;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.page-heading {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+.page-heading h1 {
+  font-size: 3.9rem;
+}
+.page-heading p {
+  font-size: 1.5rem;
+}
+.main-btn {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border: none;
+  border-radius: 20px;
+  background-color: palevioletred;
+}
+.offers {
+  background-color: #fff6f7;
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 1rem 4rem 1rem;
+}
+.heading-conatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.heading-conatiner h1 {
+  font-size: 3rem;
+}
+.heading-conatiner p {
+  font-size: 1.5rem;
+}
+.offers-container {
+  background-color: palevioletred;
+  color: white;
+  font-size: 1.8rem;
+  padding: 3rem;
+}
+.bold {
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+.destinations {
+  background-color: #fff6f7;
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0rem 0rem 2rem 0rem;
+}
+.destination-heading {
+  font-size: 1.9rem;
+}
+.destination-images-conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.destination-images {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+.destination1 {
+  background: url(img/destination1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.destination2 {
+  background: url(img/destination2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.destination3 {
+  background: url(img/destination3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.destination-images h1 {
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up {
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+  height: auto;
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem 3rem 1rem;
+  color: white;
+}
+.image-container {
+  width: 100%;
+  height: 80%;
+}
+.image-container img {
+  width: 100%;
+  height: 80%;
+}
+.sign-up-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.sign-up-heading h1 {
+  font-size: 3rem;
+}
+.sign-up-heading p {
+  font-size: 1.5rem;
+}
+.sign-up-btn {
+  font-family: "Roboto Slab", serif;
+  color: palevioletred;
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+}
+.testimoniais {
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+  height: auto;
+  background-color: #fff6f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+.testimoniais-heading {
+  margin-top: 1rem;
+}
+.testimoniais-heading h1 {
+  font-size: 2.7rem;
+}
+.user-review {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.user-card {
+  width: 14rem;
+  height: 17rem;
+  background-color: white;
+  box-shadow: 0px 0px 22px rgb(131, 127, 127);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.user-card h1 {
+  padding: 1rem;
+}
+.user-name {
+  width: 80%;
+  height: 3rem;
+
+  display: flex;
+  flex-direction: row;
+}
+.user-logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+.achive {
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+  height: 100vh;
+  background: url(img/achive.jpg);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+.achive-heading {
+  width: 90%;
+}
+.achive-heading h1 {
+  font-size: 3em;
+  color: white;
+}
+.achive-container {
+  width: 100%;
+  background-color: white;
+  padding: 1rem 4rem 1rem 1rem;
+}
+.achive-container p {
+  padding: 0.2rem;
+  font-size: 1.4rem;
+}
+.contact {
+  font-family: "Roboto Slab", serif;
+  padding: 1rem;
+  background-color: #fff6f7;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-logo {
+  color: palevioletred;
+  font-family: "Lobster", cursive;
+}
+.connect li {
+  list-style: none;
+}
+.connect li a {
+  text-decoration: none;
+  color: black;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.location li {
+  list-style: none;
+}
+@media screen and (min-width:600px) {
+    .page-heading h1 {
+        font-size: 6rem;
+    }
+    .page-heading p {
+        font-size: 2.3rem;
+    }
+    .offers{
+      width: 100%;
+      height: 100vh;
+      padding: 7rem 3rem 7rem 3rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+    }
+    .heading-conatiner{
+      width: 70%;
+    }
+    .destinations{
+      height: 100vh;
+    }
+    .destination-images-conatiner{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .sign-up {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+    }
+
+.testimoniais{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sign-up-heading {
+  padding: 2rem;
+}
+.user-review {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.achive{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+}
